@@ -2,19 +2,61 @@ body {
   color: #999;
   background-color: rgb(221, 238, 240);
 }
-.field {
-  background-color: #fff;
-  width: 600px;
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 auto;
+img {
+  width: 100%;
+
 }
-.cell {
-  width: 25%;
-  height: 150px;
-  border: 1px solid #999;
+.card-box {
+  width: 150px;
+  height: 60px;
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(148, 133, 133, 0.529);
+}
+.form__card-box {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  box-sizing: border-box;
+}
+
+.visa {
+  background-image: url(../img/visa.png);
+}
+
+.masterCard {
+  background-image: url(../img/mastercard-logo.png);
+}
+
+.jcb {
+  background-image: url(../img/card-JCB.png);
+}
+.discover {
+  background-image: url(../img/discover.png);
+}
+.diners-club {
+  background-image: url(../img/money-diners.png);
+}
+.american-express {
+  background-image: url(../img/american-express.png);
+}
+.mir {
+  background-image: url(../img/images-MIR.png);
+}
+.maestro {
+  background-image: url(../img/maestro.png);
+}
+.valid {
+  outline: 2px solid green;
+  border-radius: 5px;
+}
+.error {
+  outline: 2px solid red;
+  border-radius: 5px;
 }
